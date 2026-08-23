@@ -175,9 +175,6 @@ c.text(650, 742, "Back to FRESH. The wheel comes round again, which is rather th
 c.text(650, 800, "ka is a wheel", 15, "violet", 700, "middle", 3.0)
 ok.append(c.write("smart-ttl-lifecycle"))
 
-print()
-print("── validation summary ──")
-print("  diagrams written: %d / %d" % (sum(1 for x in ok if x), len(ok)))
 
 # ─────────────────────────────────────────────── 5. THE CONFORMANCE GATE
 c = Canvas(1300, 1000, "The conformance gate",
@@ -300,11 +297,6 @@ c.text(590, 1048, "A step that reports success without reading the state back ha
        13, "text", 400, "middle")
 ok.append(c.write("build-flow"))
 
-print()
-print("── validation summary ──")
-print("  diagrams written: %d / %d" % (sum(1 for x in ok if x), len(ok)))
-rasterise()
-
 # ─────────────────────────────────────────────── 8. PALETTE
 import json as _json
 _pal = _json.load(open(os.path.join(os.path.dirname(os.path.dirname(
@@ -336,7 +328,12 @@ c.card(90, 952, 1000, 40, "card2", "green", 2.0)
 c.text(590, 978, "Text tokens clear 4.5:1 on both surfaces. Structural tokens are not text.",
        13, "text", 400, "middle")
 ok.append(c.write("palette-contrast"))
+
+# ─────────────────────────────────────────────── emit
 print()
-print("── FINAL ──")
-print("  diagrams written: %d / %d" % (sum(1 for x in ok if x), len(ok)))
+print("── SUMMARY ──")
+print("  diagrams written : %d / %d" % (sum(1 for x in ok if x), len(ok)))
+if not all(ok):
+    raise SystemExit("  at least one asset was REFUSED by the validator - fix it, "
+                     "do not commit a partial asset set")
 rasterise()

@@ -1,0 +1,169 @@
+{
+ "_meta": {
+  "generated": "2026-08-23T21:51:06+00:00",
+  "note": "Machine index of every asset. Values are measured from the files, not declared.",
+  "asset_count": 8
+ },
+ "assets": [
+  {
+   "id": "build-flow",
+   "title": "Genesis to verified report",
+   "vector": "assets/vectors/diagrams/build-flow.svg",
+   "raster": "assets/exports/build-flow.png",
+   "catalog": "catalog/diagrams/build-flow.md",
+   "canvas": {
+    "w": 1180,
+    "h": 1080
+   },
+   "type_size": {
+    "min": 13,
+    "max": 36
+   },
+   "text_nodes": 27,
+   "png_bytes": 75002,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "conformance-gate",
+   "title": "Nine checks, and the gate's own defects",
+   "vector": "assets/vectors/diagrams/conformance-gate.svg",
+   "raster": "assets/exports/conformance-gate.png",
+   "catalog": "catalog/diagrams/conformance-gate.md",
+   "canvas": {
+    "w": 1300,
+    "h": 1000
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 63,
+   "png_bytes": 122311,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "firing-sequence",
+   "title": "Eight steps, two mandatory stops",
+   "vector": "assets/vectors/diagrams/firing-sequence.svg",
+   "raster": "assets/exports/firing-sequence.png",
+   "catalog": "catalog/diagrams/firing-sequence.md",
+   "canvas": {
+    "w": 1180,
+    "h": 900
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 28,
+   "png_bytes": 65917,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "layer-0-three-jobs",
+   "title": "The operator layer in detail",
+   "vector": "assets/vectors/diagrams/layer-0-three-jobs.svg",
+   "raster": "assets/exports/layer-0-three-jobs.png",
+   "catalog": "catalog/diagrams/layer-0-three-jobs.md",
+   "canvas": {
+    "w": 1300,
+    "h": 940
+   },
+   "type_size": {
+    "min": 13,
+    "max": 36
+   },
+   "text_nodes": 49,
+   "png_bytes": 76696,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "orchestra-architecture",
+   "title": "The whole system on one canvas",
+   "vector": "assets/vectors/diagrams/orchestra-architecture.svg",
+   "raster": "assets/exports/orchestra-architecture.png",
+   "catalog": "catalog/diagrams/orchestra-architecture.md",
+   "canvas": {
+    "w": 1300,
+    "h": 1020
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 76,
+   "png_bytes": 78562,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "palette-contrast",
+   "title": "Measured contrast for every token",
+   "vector": "assets/vectors/diagrams/palette-contrast.svg",
+   "raster": "assets/exports/palette-contrast.png",
+   "catalog": "catalog/diagrams/palette-contrast.md",
+   "canvas": {
+    "w": 1180,
+    "h": 1000
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 68,
+   "png_bytes": 79540,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "smart-ttl-lifecycle",
+   "title": "The freshness gate",
+   "vector": "assets/vectors/diagrams/smart-ttl-lifecycle.svg",
+   "raster": "assets/exports/smart-ttl-lifecycle.png",
+   "catalog": "catalog/diagrams/smart-ttl-lifecycle.md",
+   "canvas": {
+    "w": 1300,
+    "h": 860
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 19,
+   "png_bytes": 60328,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  },
+  {
+   "id": "two-paths-to-a-roster",
+   "title": "Operator-supplied versus discovered rosters",
+   "vector": "assets/vectors/diagrams/two-paths-to-a-roster.svg",
+   "raster": "assets/exports/two-paths-to-a-roster.png",
+   "catalog": "catalog/diagrams/two-paths-to-a-roster.md",
+   "canvas": {
+    "w": 1300,
+    "h": 980
+   },
+   "type_size": {
+    "min": 12,
+    "max": 36
+   },
+   "text_nodes": 22,
+   "png_bytes": 61441,
+   "solid_background": true,
+   "blur_filters": false,
+   "accessible_titles": true
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 900" width="1180" height="900" role="img" aria-labelledby="t d">
+<title id="t">The firing sequence</title>
+<desc id="d">Eight ordered steps with two mandatory stops: a freshness check and a scoring check.</desc>
+<rect width="1180" height="900" fill="#0B1015"/>
+<text x="56" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="36" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="3">THE FIRING SEQUENCE</text>
+<text x="56" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Eight steps. Two mandatory stops. Both are fail-safes.</text>
+<line x1="56" y1="122" x2="1124" y2="122" stroke="#33424F" stroke-width="1.5"/>
+<rect x="90" y="156" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="168" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="197" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">1</text>
+<text x="170" y="186" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Resolve live time</text>
+<text x="170" y="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">In code. Never inferred.</text>
+<line x1="595" y1="224" x2="595" y2="242" stroke="#33424F" stroke-width="2"/>
+<path d="M588 233 L595 242 L602 233" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="242" width="1000" height="68" rx="6" fill="#161E27" stroke="#FB7185" stroke-width="2.5"/>
+<rect x="106" y="254" width="44" height="44" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2"/>
+<text x="128" y="283" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="0">2</text>
+<text x="170" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Read the journal</text>
+<text x="170" y="296" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Is this chamber's brief fresh?</text>
+<rect x="940" y="260" width="124.16" height="24" rx="10" fill="#1E2833" stroke="#FB7185" stroke-width="1.5"/>
+<text x="1002.08" y="276" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="1.2">MANDATORY STOP</text>
+<line x1="595" y1="310" x2="595" y2="328" stroke="#33424F" stroke-width="2"/>
+<path d="M588 319 L595 328 L602 319" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="328" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="340" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="369" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">3</text>
+<text x="170" y="358" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Extract domain signals</text>
+<text x="170" y="382" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">What is the task actually about?</text>
+<line x1="595" y1="396" x2="595" y2="414" stroke="#33424F" stroke-width="2"/>
+<path d="M588 405 L595 414 L602 405" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="414" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="426" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="455" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">4</text>
+<text x="170" y="444" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Match tags and triggers</text>
+<text x="170" y="468" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Against the granted roster only.</text>
+<line x1="595" y1="482" x2="595" y2="500" stroke="#33424F" stroke-width="2"/>
+<path d="M588 491 L595 500 L602 491" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="500" width="1000" height="68" rx="6" fill="#161E27" stroke="#FB7185" stroke-width="2.5"/>
+<rect x="106" y="512" width="44" height="44" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2"/>
+<text x="128" y="541" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="0">5</text>
+<text x="170" y="530" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Score the candidates</text>
+<text x="170" y="554" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Tie or no-match ends the sequence.</text>
+<rect x="940" y="518" width="124.16" height="24" rx="10" fill="#1E2833" stroke="#FB7185" stroke-width="1.5"/>
+<text x="1002.08" y="534" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="1.2">MANDATORY STOP</text>
+<line x1="595" y1="568" x2="595" y2="586" stroke="#33424F" stroke-width="2"/>
+<path d="M588 577 L595 586 L602 577" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="586" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="598" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="627" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">6</text>
+<text x="170" y="616" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Announce the mount</text>
+<text x="170" y="640" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">An unannounced frame is unauditable.</text>
+<line x1="595" y1="654" x2="595" y2="672" stroke="#33424F" stroke-width="2"/>
+<path d="M588 663 L595 672 L602 663" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="672" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="684" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="713" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">7</text>
+<text x="170" y="702" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Answer inside the frame</text>
+<text x="170" y="726" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">One chamber. Never a blend.</text>
+<line x1="595" y1="740" x2="595" y2="758" stroke="#33424F" stroke-width="2"/>
+<path d="M588 749 L595 758 L602 749" fill="none" stroke="#33424F" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="758" width="1000" height="68" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<rect x="106" y="770" width="44" height="44" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="2"/>
+<text x="128" y="799" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="0">8</text>
+<text x="170" y="788" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Log it, with alternates</text>
+<text x="170" y="812" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">So a mis-mount is fixed once.</text>
+</svg>

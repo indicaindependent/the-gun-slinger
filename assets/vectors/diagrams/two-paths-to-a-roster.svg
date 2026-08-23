@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 980" width="1300" height="980" role="img" aria-labelledby="t d">
+<title id="t">Two paths to a roster</title>
+<desc id="d">Path A: the master supplies all 24 chamber titles. Path B: the master names only the target and a discovery pass proposes the 24, which the master must ratify before any chamber is researched.</desc>
+<rect width="1300" height="980" fill="#0B1015"/>
+<text x="56" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="36" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="3">TWO PATHS TO A ROSTER</text>
+<text x="56" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">The master loads the gun, or the master names the target.</text>
+<line x1="56" y1="122" x2="1244" y2="122" stroke="#33424F" stroke-width="1.5"/>
+<rect x="480" y="150" width="340" height="62" rx="6" fill="#1E2833" stroke="#33424F" stroke-width="1.5"/>
+<text x="650" y="177" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#F3F7F9" text-anchor="middle" letter-spacing="2">THE MASTER</text>
+<text x="650" y="199" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="middle" letter-spacing="0">decides which path to take</text>
+<path d="M650 212 L650 242 L300 242 L300 262" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M293 263 L300 272 L307 263" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M650 212 L650 242 L1000 242 L1000 262" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M993 263 L1000 272 L1007 263" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="90" y="272" width="420" height="128" rx="6" fill="#161E27" stroke="#4ADE80" stroke-width="2.5"/>
+<text x="112" y="304" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#4ADE80" text-anchor="start" letter-spacing="2.2">PATH A</text>
+<text x="112" y="330" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="1">THE MASTER LOADS THE GUN</text>
+<text x="112" y="356" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">He has already done the thinking.</text>
+<text x="112" y="378" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">He supplies all 24 titles by name.</text>
+<rect x="790" y="272" width="420" height="128" rx="6" fill="#161E27" stroke="#E87BC8" stroke-width="2.5"/>
+<text x="812" y="304" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#E87BC8" text-anchor="start" letter-spacing="2.2">PATH B</text>
+<text x="812" y="330" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="1">THE MASTER NAMES THE TARGET</text>
+<text x="812" y="356" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">One line: what the work is for.</text>
+<text x="812" y="378" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">The roster is not yet known.</text>
+<line x1="300" y1="400" x2="300" y2="640" stroke="#4ADE80" stroke-width="2.5"/>
+<line x1="1000" y1="400" x2="1000" y2="440" stroke="#E87BC8" stroke-width="2.5"/>
+<path d="M993 431 L1000 440 L1007 431" fill="none" stroke="#E87BC8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="790" y="446" width="420" height="118" rx="6" fill="#1E2833" stroke="#E87BC8" stroke-width="2"/>
+<text x="812" y="476" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#E87BC8" text-anchor="start" letter-spacing="1.6">+ DISCOVERY PASS</text>
+<text x="812" y="502" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Live research: what disciplines</text>
+<text x="812" y="524" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">does THIS target actually need?</text>
+<text x="812" y="550" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Output is a PROPOSAL, not a roster.</text>
+<line x1="1000" y1="564" x2="1000" y2="588" stroke="#E87BC8" stroke-width="2.5"/>
+<path d="M993 579 L1000 588 L1007 579" fill="none" stroke="#E87BC8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="790" y="594" width="420" height="84" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2.5"/>
+<text x="812" y="622" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#FB7185" text-anchor="start" letter-spacing="1">RATIFICATION - MANDATORY STOP</text>
+<text x="812" y="650" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Nothing is researched until he says yes.</text>
+<line x1="1000" y1="678" x2="1000" y2="706" stroke="#FB7185" stroke-width="2.5"/>
+<path d="M993 697 L1000 706 L1007 697" fill="none" stroke="#FB7185" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M300 640 L300 676 L650 676 L650 702" fill="none" stroke="#4ADE80" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M643 703 L650 712 L657 703" fill="none" stroke="#4ADE80" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M1000 706 L1000 709 L650 709 L650 702" fill="none" stroke="#FB7185" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M643 703 L650 712 L657 703" fill="none" stroke="#FB7185" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="718" width="820" height="92" rx="6" fill="#161E27" stroke="#2DD4E8" stroke-width="2.5"/>
+<text x="650" y="750" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="1.4">RESEARCH EVERY CHAMBER - LIVE, DATED, CITED</text>
+<text x="650" y="778" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">Then the gate. Then the journal. Then, and only then, it can fire.</text>
+<line x1="650" y1="810" x2="650" y2="838" stroke="#2DD4E8" stroke-width="2.5"/>
+<path d="M643 829 L650 838 L657 829" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="844" width="820" height="86" rx="6" fill="#1E2833" stroke="#F5A524" stroke-width="2"/>
+<text x="650" y="874" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#F5A524" text-anchor="middle" letter-spacing="1.2">WHY PATH B IS NOT THE ROGUE ROSTER</text>
+<text x="650" y="902" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">An agent proposing its own scope is safe only if it cannot grant it.</text>
+</svg>

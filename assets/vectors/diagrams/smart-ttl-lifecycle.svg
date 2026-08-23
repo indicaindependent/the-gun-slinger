@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 860" width="1300" height="860" role="img" aria-labelledby="t d">
+<title id="t">Smart TTL freshness lifecycle</title>
+<desc id="d">A brief is fresh for 30 days, then the chamber refuses to fire until an upgrade-and-enhancement pass is gated and promoted, resetting the clock.</desc>
+<rect width="1300" height="860" fill="#0B1015"/>
+<text x="56" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="36" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="3">SMART TTL</text>
+<text x="56" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">The clock is a gate, not a scheduler. It refuses; it never fetches.</text>
+<line x1="56" y1="122" x2="1244" y2="122" stroke="#33424F" stroke-width="1.5"/>
+<rect x="90" y="156" width="368" height="96" rx="6" fill="#161E27" stroke="#4ADE80" stroke-width="2.5"/>
+<text x="106" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#4ADE80" text-anchor="start" letter-spacing="2">FRESH</text>
+<text x="106" y="222" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">day 0 - 23   aim and fire</text>
+<line x1="458" y1="204" x2="466" y2="204" stroke="#A7B6C2" stroke-width="2"/>
+<path d="M457 197 L466 204 L457 211" fill="none" stroke="#A7B6C2" stroke-width="2" stroke-linecap="round"/>
+<rect x="466" y="156" width="368" height="96" rx="6" fill="#161E27" stroke="#F5A524" stroke-width="2.5"/>
+<text x="482" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#F5A524" text-anchor="start" letter-spacing="2">EXPIRING</text>
+<text x="482" y="222" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">day 24 - 30   refresh soon</text>
+<line x1="834" y1="204" x2="842" y2="204" stroke="#A7B6C2" stroke-width="2"/>
+<path d="M833 197 L842 204 L833 211" fill="none" stroke="#A7B6C2" stroke-width="2" stroke-linecap="round"/>
+<rect x="842" y="156" width="368" height="96" rx="6" fill="#161E27" stroke="#FB7185" stroke-width="2.5"/>
+<text x="858" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#FB7185" text-anchor="start" letter-spacing="2">STALE</text>
+<text x="858" y="222" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">day 31+   WILL NOT FIRE</text>
+<line x1="814" y1="254" x2="664" y2="300" stroke="#FB7185" stroke-width="2.5"/>
+<line x1="664" y1="300" x2="672.017" y2="291.071" stroke="#FB7185" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="664" y1="300" x2="675.644" y2="302.899" stroke="#FB7185" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="306" width="820" height="76" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2.5"/>
+<text x="650" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="1.6">THE CHAMBER REFUSES TO FIRE</text>
+<text x="650" y="364" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">A stale expert is worse than an admitted gap, because it sounds identical.</text>
+<line x1="650" y1="382" x2="650" y2="412" stroke="#2DD4E8" stroke-width="2.5"/>
+<path d="M643 403 L650 412 L657 403" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="418" width="820" height="118" rx="6" fill="#161E27" stroke="#2DD4E8" stroke-width="2.5"/>
+<text x="650" y="450" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#2DD4E8" text-anchor="middle" letter-spacing="1.6">UPGRADE-AND-ENHANCEMENT PASS</text>
+<text x="650" y="480" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">Not a re-read of the old brief. It ADDS what the discipline has gained:</text>
+<text x="650" y="504" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">current tools, methods, instruments and benchmarks, from live sources.</text>
+<text x="650" y="526" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="middle" letter-spacing="0">A dead citation is staleness too, even inside the window.</text>
+<line x1="650" y1="536" x2="650" y2="566" stroke="#2DD4E8" stroke-width="2.5"/>
+<path d="M643 557 L650 566 L657 557" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="572" width="820" height="76" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2.5"/>
+<text x="650" y="602" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="1.4">THE GATE - PROMOTE ONLY ON PASS</text>
+<text x="650" y="630" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">A failing refresh never replaces a working brief. The old one is archived.</text>
+<line x1="650" y1="648" x2="650" y2="678" stroke="#2DD4E8" stroke-width="2.5"/>
+<path d="M643 669 L650 678 L657 669" fill="none" stroke="#2DD4E8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="240" y="684" width="820" height="76" rx="6" fill="#161E27" stroke="#4ADE80" stroke-width="2.5"/>
+<text x="650" y="714" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="1.4">CLOCK RESETS - CHAMBER RELOADED</text>
+<text x="650" y="742" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">Back to FRESH. The wheel comes round again, which is rather the point.</text>
+<text x="650" y="800" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#A78BFA" text-anchor="middle" letter-spacing="3">ka is a wheel</text>
+</svg>

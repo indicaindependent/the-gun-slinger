@@ -1,0 +1,93 @@
+{
+ "_meta": {
+  "generated": "2026-08-23T21:28:07+00:00",
+  "standard": "WCAG 2.2",
+  "note": "Contrast values are computed from the hex values, not asserted. Inherited from THE GUN and re-verified here."
+ },
+ "tokens": [
+  {
+   "name": "bg",
+   "hex": "#0B1015",
+   "use": "page surface",
+   "contrast_vs_bg": 1.0,
+   "contrast_vs_card": 1.14
+  },
+  {
+   "name": "card",
+   "hex": "#161E27",
+   "use": "raised panel",
+   "contrast_vs_bg": 1.14,
+   "contrast_vs_card": 1.0
+  },
+  {
+   "name": "card2",
+   "hex": "#1E2833",
+   "use": "inset panel",
+   "contrast_vs_bg": 1.28,
+   "contrast_vs_card": 1.13
+  },
+  {
+   "name": "border",
+   "hex": "#33424F",
+   "use": "hairline rule",
+   "contrast_vs_bg": 1.85,
+   "contrast_vs_card": 1.63
+  },
+  {
+   "name": "text",
+   "hex": "#F3F7F9",
+   "use": "primary text",
+   "contrast_vs_bg": 17.73,
+   "contrast_vs_card": 15.6
+  },
+  {
+   "name": "muted",
+   "hex": "#A7B6C2",
+   "use": "secondary label",
+   "contrast_vs_bg": 9.2,
+   "contrast_vs_card": 8.1
+  },
+  {
+   "name": "teal",
+   "hex": "#2DD4E8",
+   "use": "accent, focus ring, single-series data",
+   "contrast_vs_bg": 10.64,
+   "contrast_vs_card": 9.36
+  },
+  {
+   "name": "magenta",
+   "hex": "#E87BC8",
+   "use": "second category only",
+   "contrast_vs_bg": 7.37,
+   "contrast_vs_card": 6.48
+  },
+  {
+   "name": "amber",
+   "hex": "#F5A524",
+   "use": "credential-class emphasis",
+   "contrast_vs_bg": 9.36,
+   "contrast_vs_card": 8.24
+  },
+  {
+   "name": "red",
+   "hex": "#FB7185",
+   "use": "hard stop, harm class",
+   "contrast_vs_bg": 7.1,
+   "contrast_vs_card": 6.25
+  },
+  {
+   "name": "green",
+   "hex": "#4ADE80",
+   "use": "engineering group",
+   "contrast_vs_bg": 10.96,
+   "contrast_vs_card": 9.65
+  },
+  {
+   "name": "violet",
+   "hex": "#A78BFA",
+   "use": "science group",
+   "contrast_vs_bg": 7.02,
+   "contrast_vs_card": 6.18
+  }
+ ]
+}

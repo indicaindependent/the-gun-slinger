@@ -1,0 +1,4 @@
+config/agent.conf
+__pycache__/
+*.pyc
+.DS_Store

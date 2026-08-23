@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1000" width="1300" height="1000" role="img" aria-labelledby="t d">
+<title id="t">The conformance gate</title>
+<desc id="d">Nine mechanical checks a brief must pass before its chamber counts as loaded, plus the gate's own known instrumentation defects kept as regression cases.</desc>
+<rect width="1300" height="1000" fill="#0B1015"/>
+<text x="56" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="36" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="3">THE CONFORMANCE GATE</text>
+<text x="56" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">A file existing counts for nothing. Nine checks, all mechanical.</text>
+<line x1="56" y1="122" x2="1244" y2="122" stroke="#33424F" stroke-width="1.5"/>
+<rect x="90" y="156" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">01</text>
+<text x="154" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Document-type marker on line 1</text>
+<text x="154" y="204" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Machine-identifiable, or it is just prose.</text>
+<rect x="742" y="170" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="228" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">02</text>
+<text x="154" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">The mount pin, verbatim</text>
+<text x="154" y="276" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">With real dates substituted, not placeholders.</text>
+<rect x="742" y="242" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="262" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="300" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="326" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">03</text>
+<text x="154" y="326" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">A parseable research date</text>
+<text x="154" y="348" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Parsed, not eyeballed.</text>
+<rect x="742" y="314" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="334" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="372" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">04</text>
+<text x="154" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">A maintenance-due date</text>
+<text x="154" y="420" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Computed in code as research + 30 days.</text>
+<rect x="742" y="386" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="406" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="444" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="470" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">05</text>
+<text x="154" y="470" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Roster tags</text>
+<text x="154" y="492" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">So the router can match a task to it.</text>
+<rect x="742" y="458" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="478" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="516" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="542" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">06</text>
+<text x="154" y="542" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">A trigger sentence</text>
+<text x="154" y="564" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">When this chamber, and not another.</text>
+<rect x="742" y="530" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="550" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="588" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="614" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">07</text>
+<text x="154" y="614" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Five or more real source URLs</text>
+<text x="154" y="636" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Each one fetched. GET, never HEAD.</text>
+<rect x="742" y="602" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="622" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="660" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="686" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">08</text>
+<text x="154" y="686" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">Eight or more checklist items</text>
+<text x="154" y="708" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Prioritised. Tables count, not just bullets.</text>
+<rect x="742" y="674" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="694" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="90" y="732" width="700" height="58" rx="6" fill="#161E27" stroke="#33424F" stroke-width="1.5"/>
+<text x="112" y="758" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#2DD4E8" text-anchor="start" letter-spacing="1">09</text>
+<text x="154" y="758" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F3F7F9" text-anchor="start" letter-spacing="0">A closing behavioural note</text>
+<text x="154" y="780" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">What changes in conduct, not in knowledge.</text>
+<rect x="742" y="746" width="30" height="30" rx="6" fill="#1E2833" stroke="#4ADE80" stroke-width="2"/>
+<text x="757" y="766" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle" letter-spacing="0">Y</text>
+<rect x="824" y="156" width="386" height="292" rx="6" fill="#161E27" stroke="#FB7185" stroke-width="2.5"/>
+<text x="846" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#FB7185" text-anchor="start" letter-spacing="1.4">THE GATE CAN BE WRONG</text>
+<text x="846" y="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#FB7185" text-anchor="start" letter-spacing="1.4">BEFORE THE BRIEF IS</text>
+<text x="846" y="244" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Counted only bullets, so a table</text>
+<text x="846" y="264" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">of checklist items read as zero.</text>
+<text x="846" y="304" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Counted box-drawing characters</text>
+<text x="846" y="324" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">as emoji.</text>
+<text x="846" y="364" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Missed a mount pin that wrapped</text>
+<text x="846" y="384" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">or carried a quote marker.</text>
+<text x="846" y="424" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#A7B6C2" text-anchor="start" letter-spacing="0">Counted header rows as items.</text>
+<rect x="824" y="464" width="386" height="148" rx="6" fill="#1E2833" stroke="#F5A524" stroke-width="2"/>
+<text x="846" y="494" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#F5A524" text-anchor="start" letter-spacing="1.4">THE COROLLARY</text>
+<text x="846" y="522" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">When a probe reports something</text>
+<text x="846" y="541" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">broad and alarming, suspect the</text>
+<text x="846" y="560" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">probe first. A test that says</text>
+<text x="846" y="579" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">everything is broken is usually</text>
+<text x="846" y="598" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">a broken test.</text>
+<rect x="824" y="628" width="386" height="176" rx="6" fill="#161E27" stroke="#A78BFA" stroke-width="2"/>
+<text x="846" y="658" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#A78BFA" text-anchor="start" letter-spacing="1.4">SOURCE OF TRUTH</text>
+<text x="846" y="686" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">The brief is authoritative.</text>
+<text x="846" y="705" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">The journal is derived from it.</text>
+<text x="846" y="743" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">On disagreement, REGENERATE</text>
+<text x="846" y="762" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">the journal. Never hand-edit it</text>
+<text x="846" y="781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">to agree - that converts a</text>
+<text x="846" y="800" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#F3F7F9" text-anchor="start" letter-spacing="0">detected fault into a hidden one.</text>
+<rect x="90" y="820" width="1120" height="76" rx="6" fill="#1E2833" stroke="#FB7185" stroke-width="2.5"/>
+<text x="650" y="850" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#FB7185" text-anchor="middle" letter-spacing="1.6">A CHAMBER IS LOADED ONLY IF ITS BRIEF PASSES</text>
+<text x="650" y="878" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#F3F7F9" text-anchor="middle" letter-spacing="0">That distinction is the whole difference between a journal and a directory listing.</text>
+<text x="650" y="940" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#A7B6C2" text-anchor="middle" letter-spacing="1">A gate that cannot refuse is not a gate.</text>
+</svg>

@@ -1,0 +1,39 @@
+# THE GUN SLINGER — agent configuration
+# Copy to config/agent.conf and edit. Lines starting with # are ignored.
+
+# Short name. ALL CAPS reads well in an identity header.
+AGENT = GUNSLINGER
+
+# One line on what this agent is for.
+TAGLINE = a research and analysis agent that refuses to answer from a stale frame
+
+# Who it works for, by name.
+OPERATOR = the operator
+
+# IANA timezone. Used for live time resolution in the build.
+TIMEZONE = America/New_York
+
+# The permanent operator-layer disciplines.
+# HARD CONSTRAINT: never a domain expert in anything your chambers cover.
+# An operator layer with opinions about a domain will route that domain to itself.
+LAYER0_ROLES = a Time Management Consultant, a Productivity Strategist, and a Delegation and Prioritisation Specialist
+
+# How many chambers. 24 is the reference. 6 and 40 work identically.
+CHAMBERS = 24
+
+# A or B.
+#   A = you supply every chamber title below
+#   B = you supply only a TARGET; the agent proposes the roster and you ratify it
+ROSTER_PATH = B
+
+# ── PATH B ONLY ────────────────────────────────────────────────────────────
+# One line: what the work is for. Be concrete. This is the only input the
+# discovery pass gets, so vagueness here produces a vague roster.
+TARGET = helping people keep public benefits they are entitled to but at risk of losing on procedural grounds
+
+# ── PATH A ONLY ────────────────────────────────────────────────────────────
+# One title per line, indented. Ignored when ROSTER_PATH = B.
+CHAMBER_LIST =
+  Principal Data Scientist
+  Chief Systems Architect
+  Principal Cryptographic Systems Architect

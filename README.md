@@ -179,6 +179,7 @@ catalog/            one card per asset: what it shows, why, what broke
 | [11 Two paths](docs/11-two-paths-to-a-roster.md) | Operator-supplied vs discovered rosters |
 | [12 Fork this](docs/12-fork-this.md) | Making it yours |
 | [13 Lessons](docs/13-lessons-from-three-builds.md) | Three real builds, and what each one broke |
+| [14 The evidence](docs/14-the-evidence.md) | What one instance measured, and what it does not prove |
 
 ---
 

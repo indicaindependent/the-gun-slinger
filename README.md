@@ -1,209 +1,120 @@
-# THE GUN SLINGER
+# THE GUNSLINGER
 
-### Killing tasks with master skillsets that refresh themselves
+### The one with the big irons and the sandalwood grips
 
-A **forkable architecture for orchestra agents** — agents that hold many
-disciplines without pretending to be all of them at once.
+<img src="assets/avatar-gunslinger.jpg" alt="The Gunslinger: a weathered figure in a long coat holding two large revolvers with pale sandalwood grips, a twenty-four segment cylinder wheel behind him" width="240" align="right" />
 
-One permanent hand. Twenty-four chambers. Exactly one loaded at a time, and every
-one of them refuses to fire once its knowledge has gone stale.
+A member repository of the **[ka-tet](https://github.com/indicaindependent/ka-tet)**.
 
-Fork it, name your target, and the build discovers its own roster.
+The full-fledged gunslinger carries the heavy irons, and he carries **twenty-four chambers**.
+Not twenty-four skills held at once — **exactly one is mounted at a time.** An agent that
+claims twenty-four simultaneous specialities has none of them, and says so confidently.
 
----
+His discipline is **delegation**: deciding *which kind of expert to become* before answering,
+and making that decision mechanically instead of by feel.
 
-![The Orchestra Agent](assets/exports/orchestra-architecture.png)
-
----
-
-## THE PROBLEM, IN ONE PARAGRAPH
-
-An agent that claims twenty-four specialities has none of them. Ask it about
-cryptography and it produces text *shaped like* cryptography; ask about
-epidemiology and you get text shaped like epidemiology. Both read fluently. Neither
-is anchored to what the discipline currently believes.
-
-The failure is not that an answer is wrong. **The failure is that nothing in the
-output signals which frame produced it** — so a confident answer from the wrong
-frame is indistinguishable from a correct one, including to the agent itself.
-
-This architecture makes frame selection explicit, mechanical, dated and logged.
+<br clear="right"/>
 
 ---
 
-## THE FIVE RULES IT ENFORCES
+## THE CYLINDER
 
-Read [**the Creed**](CREED.md) first — it is five lines long and it *is* the
-architecture, not a mission statement bolted on afterwards.
+![The 24-chamber cylinder: twenty-four chambers arranged radially around a single central mount, coloured by discipline family](assets/cylinder-24.svg)
 
-| | Rule | Meaning |
-| :--- | :--- | :--- |
-| **1** | I aim with the clock | Time is resolved by live call and arithmetic runs as code, never in the model's head |
-| **2** | I load with the brief | A job title is free; a dated, cited, researched brief is the capability |
-| **3** | I fire with the gate | Nine mechanical checks. A file existing counts for nothing |
-| **4** | I widen when I am told | The agent may deepen itself forever. Only the operator may broaden it |
-| **5** | I answer with what I checked | No assumptions, ever. Verify, act, then read the state back |
+### The chambers, by family
 
----
-
-## GALLERY
-
-### Two paths to a roster
-
-The part most systems get wrong. Either the operator supplies all 24 disciplines,
-**or** he names only the target and a discovery pass proposes them — which is safe
-only because the proposal cannot become a roster without his explicit ratification.
-
-![Two paths](assets/exports/two-paths-to-a-roster.png)
-
-[How it works](docs/11-two-paths-to-a-roster.md) · [Asset card](catalog/diagrams/two-paths-to-a-roster.md)
+| Family | Chambers | Range | Action items |
+|---|---:|:---:|---:|
+| Strategy / Analysis | 2 | 01–02 | 20 |
+| Science / Math / Data | 5 | 03–07 | 53 |
+| Build / Engineering | 6 | 08–13 | 59 |
+| Security | 2 | 14–15 | 43 |
+| Communication / Docs | 2 | 16–17 | 16 |
+| Growth / Commerce | 3 | 18–20 | 19 |
+| Design / Creative | 4 | 21–24 | 31 |
+| **Total** | **24** | **01–24** | **241** |
 
 ---
 
-### Layer 0 — the hand
+## THE ROUNDS
 
-Permanent, pinned, never swapped, and **never mounted as a chamber itself.** Three
-jobs: time authority, router operator, delegation authority. It holds no domain
-knowledge of its own, which is exactly why it can be trusted to pick.
+Every chamber is loaded with a **live working brief**. The brief is the charge — without it
+the chamber is a blank, and the mechanism refuses to fire it.
 
-![Layer 0](assets/exports/layer-0-three-jobs.png)
+![The skillset bullets: twenty-four cartridges, one per chamber, each drawn with a charge bar proportional to the size of that chamber's working brief](assets/bullets-24.svg)
 
-[The three jobs](docs/01-layer-0-the-hand.md)
-
----
-
-### The firing sequence
-
-Eight ordered steps and **two mandatory stops.** The stops matter more than the
-routing they protect — a router with no stop will always produce an answer, and a
-confident answer from the wrong frame is the most expensive output it can make.
-
-![Firing sequence](assets/exports/firing-sequence.png)
-
-[The sequence](docs/03-the-firing-sequence.md)
+**A round with no brief is a blank.** An empty chamber that refuses to fire is a safety
+feature. A chamber that fires on a brief which expired months ago is the actual hazard,
+because it fires *while believing it is current*.
 
 ---
 
-### Smart TTL
+## THE MECHANISM
 
-Thirty days. Then the chamber **refuses to fire** until an upgrade pass is gated
-and promoted. The clock is a gate, not a scheduler: it detects staleness and
-declines, and never goes fetching on its own — so it must be paired with something
-that does.
+![The firing sequence: six steps from incoming trigger text through routing, title lookup, freshness check, mount and fire, with a fail-closed refusal branch](assets/firing-sequence.svg)
 
-![Smart TTL](assets/exports/smart-ttl-lifecycle.png)
+### The mount pin
 
-[The freshness rule](docs/04-smart-ttl.md)
+Every chamber is mounted with identical framing, and the discipline title is **read from the
+roster, never recalled from memory.**
 
----
-
-### The conformance gate
-
-Nine checks. And a permanent list of the times **the gate itself was wrong before
-the brief was**, kept as regression cases, because a probe reporting broad failure
-is nearly always a broken probe.
-
-![The gate](assets/exports/conformance-gate.png)
-
-[The nine checks](docs/05-the-conformance-gate.md)
+That rule was not a precaution. It was **earned**: on one occasion four skillset titles were
+proposed from memory and **three of them did not exist.** An invented title is cosplay by
+definition, and the danger is that it reads as authoritative.
 
 ---
 
-### The build flow
+## THE FULL ROSTER
 
-Genesis to verified self-report, in eight steps that do not tolerate reordering.
+Every chart here owes a real data table. This is it.
 
-![Build flow](assets/exports/build-flow.png)
-
-[The build script](build/BUILD_SCRIPT.md)
-
----
-
-### Palette
-
-Every colour carries a contrast ratio **computed from its hex value**, not
-asserted. Nothing here was chosen because it looked nice on one monitor.
-
-![Palette](assets/exports/palette-contrast.png)
-
-[Measured tokens](assets/palettes/palette.json)
-
----
-
-## FORK IT
-
-The whole point. Three steps, and the second one is optional.
-
-```bash
-git clone https://github.com/<you>/the-gun-slinger.git
-cd the-gun-slinger
-cp config/agent.conf.example config/agent.conf   # name your agent and its target
-python3 lib/render_build_script.py               # emits a paste-ready build prompt
-```
-
-That last command prints a single build instruction. **Paste it into your agent's
-first message.** It configures itself, researches its own chambers, gates them,
-and reports back — including what it could not verify.
-
-Full walkthrough: [**docs/12-fork-this.md**](docs/12-fork-this.md)
+| Ch | Skillset | Family | Items |
+| ---: | :--- | :--- | ---: |
+| **01** | Geopolitical Analyst / Foreign Policy Scholar / International Relations Specialist | Strategy / Analysis | 13 |
+| **02** | Management Consultant (PhD, Organizational Behavior) | Strategy / Analysis | 7 |
+| **03** | Computer Scientist | Science / Math / Data | 5 |
+| **04** | Mathematician (PhD, Number Theory / Arithmetic Geometry) | Science / Math / Data | 4 |
+| **05** | Principal Data Scientist | Science / Math / Data | 14 |
+| **06** | Data Visualizer / Information Designer / Quantitative Statistician | Science / Math / Data | 24 |
+| **07** | Principal Computational Linguist / NLP Research Scientist | Science / Math / Data | 6 |
+| **08** | Full-Stack Software Engineer (PhD) | Build / Engineering | 15 |
+| **09** | Chief Systems Architect & Principal Brand Technologist | Build / Engineering | 6 |
+| **10** | Principal Infrastructure Architect | Build / Engineering | 12 |
+| **11** | Chief Site Reliability Architect | Build / Engineering | 11 |
+| **12** | Linux Kernel Principal Engineer | Build / Engineering | 9 |
+| **13** | Principal Systems Architect — Systems Programming & Compilers | Build / Engineering | 6 |
+| **14** | Principal Cryptographic Systems Architect | Security | 19 |
+| **15** | Principal Vulnerability Researcher / Principal Reverse Engineer | Security | 24 |
+| **16** | Principal Technical Documentation Engineer / Senior Information Architect | Communication / Docs | 10 |
+| **17** | Technical Writer / Document Designer | Communication / Docs | 6 |
+| **18** | Social Media Strategist & SEO Architect | Growth / Commerce | 7 |
+| **19** | Director of Marketing Technology (MarTech) / Principal Creative Technologist | Growth / Commerce | 7 |
+| **20** | Principal Pricing Scientist | Growth / Commerce | 5 |
+| **21** | Master Identity Designer & Typographer | Design / Creative | 5 |
+| **22** | Principal Character Concept Artist / Mascot Strategist | Design / Creative | 6 |
+| **23** | Global Systems Color Theorist | Design / Creative | 14 |
+| **24** | Principal Game Systems Architect & Studio Creative Director (PhD) | Design / Creative | 6 |
 
 ---
 
-## WHAT IS IN HERE
+## THE CREED
 
-```
-CREED.md            five lines that are the architecture
-build/              the paste-able build script, both roster paths
-docs/               the design, start to finish, one concern per file
-lib/                the generator, the gate, the clock, the roster discovery
-config/             the one file you edit
-assets/vectors/     SVG sources - the real deliverable, zoom-safe
-assets/exports/     PNG previews
-assets/palettes/    design tokens with computed contrast
-catalog/            one card per asset: what it shows, why, what broke
-```
+**I do not aim with my memory.**
+*Memory is fluent, and fluency is not a source.*
+**I aim with the record.**
 
-| Document | Covers |
-| :--- | :--- |
-| [00 The idea](docs/00-the-idea.md) | Why frame selection has to be mechanical |
-| [01 Layer 0](docs/01-layer-0-the-hand.md) | Time authority, routing, delegation |
-| [02 Layer 1](docs/02-layer-1-the-chambers.md) | Chambers, mounts, and the mount pin |
-| [03 Firing sequence](docs/03-the-firing-sequence.md) | Eight steps, two stops |
-| [04 Smart TTL](docs/04-smart-ttl.md) | The thirty-day rule and the upgrade pass |
-| [05 The gate](docs/05-the-conformance-gate.md) | Nine checks, and the gate's own bugs |
-| [06 Never assume](docs/06-never-assume.md) | Line Zero, and the corollaries that earned their place |
-| [07 Scope lock](docs/07-scope-lock.md) | Depth is the agent's, breadth is the operator's |
-| [08 Practice firewall](docs/08-regulated-practice-firewall.md) | Simulating a licensed profession without claiming one |
-| [09 Delegation](docs/09-delegation-and-the-queue.md) | Six owners, and why unmatched goes to triage |
-| [10 Authentication](docs/10-authentication-between-agents.md) | Proving an agent-to-agent message is genuine |
-| [11 Two paths](docs/11-two-paths-to-a-roster.md) | Operator-supplied vs discovered rosters |
-| [12 Fork this](docs/12-fork-this.md) | Making it yours |
-| [13 Lessons](docs/13-lessons-from-three-builds.md) | Three real builds, and what each one broke |
-| [14 The evidence](docs/14-the-evidence.md) | What one instance measured, and what it does not prove |
+**I do not fire because I can reach the trigger.**
+*Access is not authority, and a key is not a warrant.*
+**I fire on mandate.**
+
+**I do not close on confidence.**
+*Confidence is what a mistake feels like from the inside.*
+**I close on the check.**
+
+The three tenets and the mechanisms that enforce them are in the
+**[ka-tet](https://github.com/indicaindependent/ka-tet#the-creed)**. This is an original
+composition — see [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
-## AN HONEST NOTE ABOUT THE DIAGRAMS
-
-Every asset here is generated by `lib/gen_assets.py` and then **verified against
-its own rules.** The validator refuses to write an asset that overflows its canvas,
-uses an invalid text anchor, carries a blur filter, or drops type below 12px. It
-was tested by feeding it a deliberately broken diagram to confirm it says no.
-
-It has already caught real defects in this repository — an arrowhead drawn
-mid-path where no terminus exists, a diagonal arrow whose head was computed with
-horizontal logic, and a rasteriser that selected a tool by one name and dispatched
-on another, silently converting nothing while cheerfully reporting a count.
-
-Which is the whole thesis, applied to itself: **a thing that looks finished is not
-the same as a thing that was checked.**
-
----
-
-## LICENSE
-
-[MIT](LICENSE) for the code and the architecture. Fork it, ship it, sell it.
-
-The Creed is an original homage — see [CREED.md](CREED.md) for what is borrowed
-and what is not. *The Dark Tower* belongs to Stephen King; nothing here claims
-otherwise.
+*One hand. Twenty-four chambers. One at a time.*

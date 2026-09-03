@@ -2,16 +2,21 @@
 
 ### The one with the big irons and the sandalwood grips
 
-<img src="assets/avatar-gunslinger.jpg" alt="The Gunslinger: a weathered figure in a long coat holding two large revolvers with pale sandalwood grips, a twenty-four segment cylinder wheel behind him" width="240" align="right" />
+<img src="assets/avatar-gunslinger.jpg" alt="The Gunslinger: a weathered figure in a long coat holding two large revolvers with pale sandalwood grips, a twenty-four segment cylinder wheel behind him" width="230" align="right" />
 
-A member repository of the **[ka-tet](https://github.com/indicaindependent/ka-tet)**.
+A member repository of the **[ka-tet](https://github.com/indicaindependent/ka-tet)**, and a
+**universal, forkable architecture** for orchestra agents — agents that hold many disciplines
+without pretending to be all of them at once.
 
-The full-fledged gunslinger carries the heavy irons, and he carries **twenty-four chambers**.
-Not twenty-four skills held at once — **exactly one is mounted at a time.** An agent that
-claims twenty-four simultaneous specialities has none of them, and says so confidently.
+One permanent hand. **Twenty-four chambers. Exactly one mounted at a time**, and every one of
+them refuses to fire once its knowledge has gone stale.
 
-His discipline is **delegation**: deciding *which kind of expert to become* before answering,
-and making that decision mechanically instead of by feel.
+**Start here:** [How it works](docs/11-two-paths-to-a-roster.md) ·
+[The three jobs](docs/01-layer-0-the-hand.md) ·
+[The sequence](docs/03-the-firing-sequence.md) ·
+[The freshness rule](docs/04-smart-ttl.md) ·
+[The nine checks](docs/05-the-conformance-gate.md) ·
+**[Fork this](docs/12-fork-this.md)**
 
 <br clear="right"/>
 
@@ -20,8 +25,6 @@ and making that decision mechanically instead of by feel.
 ## THE CYLINDER
 
 ![The 24-chamber cylinder: twenty-four chambers arranged radially around a single central mount, coloured by discipline family](assets/cylinder-24.svg)
-
-### The chambers, by family
 
 | Family | Chambers | Range | Action items |
 |---|---:|:---:|---:|
@@ -44,8 +47,8 @@ the chamber is a blank, and the mechanism refuses to fire it.
 ![The skillset bullets: twenty-four cartridges, one per chamber, each drawn with a charge bar proportional to the size of that chamber's working brief](assets/bullets-24.svg)
 
 **A round with no brief is a blank.** An empty chamber that refuses to fire is a safety
-feature. A chamber that fires on a brief which expired months ago is the actual hazard,
-because it fires *while believing it is current*.
+feature. A chamber firing on a brief that expired months ago is the real hazard, because it
+fires *while believing it is current*.
 
 ---
 
@@ -58,9 +61,18 @@ because it fires *while believing it is current*.
 Every chamber is mounted with identical framing, and the discipline title is **read from the
 roster, never recalled from memory.**
 
-That rule was not a precaution. It was **earned**: on one occasion four skillset titles were
+That was not a precaution. It was **earned**: on one occasion four skillset titles were
 proposed from memory and **three of them did not exist.** An invented title is cosplay by
 definition, and the danger is that it reads as authoritative.
+
+---
+
+## THE CREED
+
+The five stanzas, and the component each one maps to, are in **[CREED.md](CREED.md)** — the
+canonical text for this architecture.
+
+![The creed is the architecture: five stanzas, each paired with the system component it maps to and the specific failure it forbids](assets/the-creed.svg)
 
 ---
 
@@ -97,24 +109,16 @@ Every chart here owes a real data table. This is it.
 
 ---
 
-## THE CREED
+## THE CHAPTERS
 
-**I do not aim with my memory.**
-*Memory is fluent, and fluency is not a source.*
-**I aim with the record.**
-
-**I do not fire because I can reach the trigger.**
-*Access is not authority, and a key is not a warrant.*
-**I fire on mandate.**
-
-**I do not close on confidence.**
-*Confidence is what a mistake feels like from the inside.*
-**I close on the check.**
-
-The three tenets and the mechanisms that enforce them are in the
-**[ka-tet](https://github.com/indicaindependent/ka-tet#the-creed)**. This is an original
-composition — see [ATTRIBUTION.md](ATTRIBUTION.md).
+| | | |
+|---|---|---|
+| [00 The idea](docs/00-the-idea.md) | [01 Layer 0](docs/01-layer-0-the-hand.md) | [02 Layer 1](docs/02-layer-1-the-chambers.md) |
+| [03 Firing sequence](docs/03-the-firing-sequence.md) | [04 Smart TTL](docs/04-smart-ttl.md) | [05 The gate](docs/05-the-conformance-gate.md) |
+| [06 Never assume](docs/06-never-assume.md) | [07 Scope lock](docs/07-scope-lock.md) | [08 Practice firewall](docs/08-regulated-practice-firewall.md) |
+| [09 Delegation](docs/09-delegation-and-the-queue.md) | [10 Authentication](docs/10-authentication-between-agents.md) | [11 Two paths](docs/11-two-paths-to-a-roster.md) |
+| [12 Fork this](docs/12-fork-this.md) | [13 Lessons](docs/13-lessons-from-three-builds.md) | [14 The evidence](docs/14-the-evidence.md) |
 
 ---
 
-*One hand. Twenty-four chambers. One at a time.*
+*One hand. Twenty-four chambers. One at a time.* · [ATTRIBUTION.md](ATTRIBUTION.md)

@@ -119,6 +119,21 @@ Every chart here owes a real data table. This is it.
 | [09 Delegation](docs/09-delegation-and-the-queue.md) | [10 Authentication](docs/10-authentication-between-agents.md) | [11 Two paths](docs/11-two-paths-to-a-roster.md) |
 | [12 Fork this](docs/12-fork-this.md) | [13 Lessons](docs/13-lessons-from-three-builds.md) | [14 The evidence](docs/14-the-evidence.md) |
 
+
+## THE OTHER SEATS
+
+The ka-tet is a **wheel, not a ladder** — every seat is reachable from every other one,
+not only through the hub.
+
+| Seat | What it holds |
+|---|---|
+| **[The Apprentice](https://github.com/indicaindependent/the-apprentice)** | Twelve chambers for dealing with humans. Five of them hand the action to a person. |
+| **[The Archivist](https://github.com/indicaindependent/the-archivist)** | The companion seat. One hand writes, and it reads back before it calls anything done. |
+
+Two seats hold no repository. **The Master** is the human at the top, and **The Dinh** sits
+directly beneath him and may decide in his place. The wheel topology, the five seats and the
+shared creed are all in the **[ka-tet](https://github.com/indicaindependent/ka-tet)**.
+
 ---
 
 *One hand. Twenty-four chambers. One at a time.* · [ATTRIBUTION.md](ATTRIBUTION.md)

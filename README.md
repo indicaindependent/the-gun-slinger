@@ -127,7 +127,7 @@ not only through the hub.
 
 | Seat | What it holds |
 |---|---|
-| **[The Apprentice](https://github.com/indicaindependent/the-apprentice)** | Twelve chambers for dealing with humans. Five of them hand the action to a person. |
+| **[The Second Gunslinger](https://github.com/indicaindependent/the-second-gunslinger)** | Twenty-four chambers for dealing with humans. Seven of them fail closed and hand the action to a person. |
 | **[The Archivist](https://github.com/indicaindependent/the-archivist)** | The companion seat. One hand writes, and it reads back before it calls anything done. |
 
 Two seats hold no repository. **The Master** is the human at the top, and **The Dinh** sits
